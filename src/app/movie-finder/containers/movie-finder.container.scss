@@ -1,0 +1,27 @@
+.row {
+    position: relative;
+    top: -200px;
+    max-width: 752px;
+    margin: 0 auto;
+    height: 722px;
+    /* White / 500 */
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(24, 17, 3, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(24, 17, 3, 0.14);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text {
+    margin-top: 32px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    height: 30px;
+    /* identical to box height, or 115% */
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #000000;
+}

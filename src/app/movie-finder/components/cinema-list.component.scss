@@ -1,0 +1,125 @@
+.cinema-list-container {
+    margin: 0 auto;
+    max-width: 560px;
+    height: 196px;
+}
+
+.film-list-container {
+    margin: 0 auto;
+    max-width: 560px;
+    height: 284px;
+    overflow: hidden;
+}
+
+.cinema-list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.film-list-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cinema-list {
+    width: 176px;
+    height: 40px;
+    text-align: center;
+    line-height: 2;
+    border: 1px solid #090909;
+    box-shadow: 0px 1px 5px rgba(24, 17, 3, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(24, 17, 3, 0.14);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.film-list {
+    max-width: 560px;
+    height: 40px;
+    line-height: 2;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(24, 17, 3, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(24, 17, 3, 0.14);
+    border-radius: 4px;
+    border: 1px solid #090909;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.film-list a {
+    margin-left: 10px;
+    color: #090909;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(9, 9, 9, 0.6);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cinema-name {
+    color: #090909;
+}
+
+.cart {
+    background-image: url('./../../../assets/cart.png');
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 580px) {
+    .cinema-list-flex {
+        flex-direction: column;
+    }
+
+    .cinema-list {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .cinema-list-container {
+        height: 345px;
+    }
+
+    .film-list {
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .film-list-flex {
+        height: 240px;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+
+    .film-list {
+        width: 200px;
+        margin-bottom: 5px;
+    }
+
+    .film-list-flex {
+        height: 233px;
+    }
+}
